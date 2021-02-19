@@ -1,0 +1,41 @@
+/*
+  In this example we will create a simple profile-icon. This is a neat
+  UI widget that will allow us to explore positioning, particularly     relative and absolute positioning.
+*/
+
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #252525;
+}
+
+/* Your CSS Here 👇 */
+
+#circle {
+    background: white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  border:solid white;
+  background-image: url("https://i.pinimg.com/originals/e0/90/c6/e090c67add8c2a92a875be7eed526261.jpg");
+}
+
+#onlinePic {
+  width:20px;
+  height:20px;
+  top:170px;
+  right:410px;
+  border-radius:100%;
+}
